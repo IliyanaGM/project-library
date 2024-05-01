@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .navbar, .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .library-container {
+    display: flex;
+    flex: 1;
+    padding: 2%;
+  }
+  
+  .content-list {
+    width: 50%; 
+    background-color: #fff;
+    padding: 2%; 
+    overflow-y: auto;
+    border-right: 2px solid #ccc;
+  }
+  
+  .content-details {
+    width: 50%; 
+    padding: 2%; 
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .book-list h2, .book-details h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 1%; 
+    padding: 1%; 
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    padding: 10px 20px; 
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+  }
+  
+  .deleteButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  input{
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; 
+    padding: 10px; 
+    box-sizing: border-box;
+  }
+  
+  #saveButton, #clearButton {
+    padding: 10px 20px; 
+    background-color:#555555;;
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+#saveButton {
+    margin-right: 20px; 
+}
+
+  
+  button:hover {
+    opacity: 0.85;
+  }
+  
+  .no-books {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer {
+    padding: 1%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .book-circle {
+    height: 10px;
+    width: 10px;
+    background-color: #000; 
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px; 
+  }
+  
+  
